@@ -1,11 +1,11 @@
 {
-    "site_name": "mysite",
+    "site_name": "wuboy19",
     "site_slogon": "",
     "site_root_url": "/",
-    "site_domain": "my_name.github.io",
+    "site_domain": "wuboy19.github.io",
     "site_protocol": "https",
     "config_template_dir": "config",
-    "source": "https://github.com/my_name/my_name.github.io/blob/main",
+    "source": "https://github.com/wuboy19/wuboy19.github.io/blob/main",
     "route": {
         "docs": {
             "/get_started/zh/": "docs/get_started/zh"
