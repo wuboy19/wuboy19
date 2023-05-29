@@ -2,9 +2,9 @@
 title: 第一篇博客
 keywords: 第一篇博客
 desc: teedoc 生成静态博客页面, 第一篇博客
-author: neucrack
-date: 2021-03-14
-tags: hello, blog, teedoc
+author: wuboy19
+date: 2023-05-29
+tags: linux, blog, source_insight
 ---
 
 
