@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <meta name="keywords" content="第一篇博客">
+    <meta name="keywords" content="arduino2.1搭建esp32s3环境">
     
     
     <meta name="description" content="teedoc 生成静态博客页面, 第一篇博客">
@@ -46,7 +46,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         
     
     
-    <title>第一篇博客 - wuboy19</title>
+    <title>arduino2.1搭建esp32s3环境 - wuboy19</title>
     
     <script type="text/javascript">js_vars = {}</script>
 </head>
@@ -112,17 +112,17 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     <div id="article_head">
                         <div id="article_title">
                             
-                            <h1>第一篇博客</h1>
+                            <h1>arduino2.1搭建esp32s3环境</h1>
                             
                         </div>
                         <div id="article_tags">
                             <ul>
                             
-                                <li>linux</li>
+                                <li>esp32s3</li>
                             
                                 <li> blog</li>
                             
-                                <li> source_insight</li>
+                                <li> arduino2.1</li>
                             
                             </ul>
                         </div>
@@ -132,15 +132,15 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                                 wuboy19
                             </span>
                             
-                                <span class="article_date" title="最后修改日期： 2023-05-29">
-                                    2023-05-29
+                                <span class="article_date" title="最后修改日期： 2023-06-12">
+                                    2023-06-12
                                 </span>
                             
                         </div>
                         <div id="article_info_right">
                             
                             <div id="source_link">
-                                <a href="https://github.com/wuboy19/wuboy19.github.io/blob/main/blog/category1/hello.md" target="_blank">
+                                <a href="https://github.com/wuboy19/wuboy19.github.io/blob/main/blog/category5/esp32上.md" target="_blank">
                                     编辑本页
                                 </a>
                             </div>
@@ -157,12 +157,35 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     </div>
                     <div id="article_content">
                         
-                            <span id="blog_start"></span><p>这是一段测试简介，会显示在列表中，使用<code>&lt;!-- more --&gt;</code>来分隔正文</p>
-<!-- more -->
-<h2 id="%E6%AD%A3%E6%96%87%E6%A0%87%E9%A2%98%E4%B8%80">正文标题一</h2>
-<p>你好</p>
-<h2 id="%E6%AD%A3%E6%96%87%E6%A0%87%E9%A2%98%E4%BA%8C">正文标题二</h2>
-<p>正文</p>
+                            <span id="blog_start"></span><!-- more -->
+<h2 id="%E4%B8%8B%E8%BD%BDaruduino%E8%BD%AF%E4%BB%B6">下载aruduino软件</h2>
+<p><a href="https://www.arduino.cc/en/software"  target="_blank">arduino官网链接</a>因为我是win11,所以就下载windows install类型就可以</p>
+<blockquote>
+<p>首选项-附加开发板管理器网址中填入</p>
+</blockquote>
+
+<pre class="language-none"><code class="language-none">https://espressif.github.io/arduino-esp32/package_esp32_index.json
+</code></pre>
+<blockquote>
+<p>如图</p>
+</blockquote>
+<p><img src="../../../wuboy19.github.io/static/image/1.png" alt="图片" /></p>
+<h2 id="%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85">下载安装包</h2>
+<blockquote>
+<p>方法一esp32 2.0.9的离线package</p>
+</blockquote>
+<p>链接：<a href="https://pan.baidu.com/s/1uq9IxmwRhW2VRhXsFgMd2w"  target="_blank">https://pan.baidu.com/s/1uq9IxmwRhW2VRhXsFgMd2w</a><br />
+提取码：2ua7</p>
+<blockquote>
+<p>方法二：科学上网下载</p>
+</blockquote>
+<p>但是我自己通过科学上网也有问题，会报错失败然后给出一个github的zip网址，把提示的网址下载下来也可以</p>
+<h2 id="%E7%8E%AF%E5%A2%83%E7%9A%84%E5%AE%89%E8%A3%85">环境的安装</h2>
+<ul>
+<li>打开文件夹的显示隐藏项目文件</li>
+<li>将方法一或者方法二的压缩包放到放到 用户文件夹\AppData\Local\Arduino15\staging\packages\ 下</li>
+<li>在arduino开发板管理器运行安装esp32</li>
+</ul>
 
                         
                     </div>
